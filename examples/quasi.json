@@ -1,0 +1,18 @@
+{
+  "width": 1000,
+  "height": 1000,
+  "background": "#f7f5ef",
+  "palette": "cool",
+  "seed": 12,
+  "layers": [
+    {
+      "type": "quasicrystal",
+      "tile_size": 36,
+      "extent": 7,
+      "window": 1.35,
+      "fill": "palette",
+      "stroke": "#252525",
+      "stroke_width": 0.8
+    }
+  ]
+}
