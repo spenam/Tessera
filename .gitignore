@@ -6,3 +6,4 @@ venv/
 *.svg
 !examples/*.svg
 playground/
+*egg-info
