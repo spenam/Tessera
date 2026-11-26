@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tessera-tilings"
+version = "0.1.0"
+description = "A minimal generative laboratory for periodic and aperiodic tilings"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Santiago Pena Martinez" }
+]
+dependencies = []
+
+[project.scripts]
+tessera = "tessera:main"
+
+[tool.setuptools]
+py-modules = ["tessera"]
