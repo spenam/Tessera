@@ -1,0 +1,18 @@
+{
+  "width": 1000,
+  "height": 1000,
+  "background": "#f7f5ef",
+  "palette": "warm",
+  "seed": 9,
+  "layers": [
+    {
+      "type": "uniform",
+      "notation": "8-4/m90/r(h4)",
+      "tile_size": 70,
+      "max_repeat": 12,
+      "fill": "palette",
+      "stroke": "#493b35",
+      "stroke_width": 0.9
+    }
+  ]
+}

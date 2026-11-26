@@ -1,0 +1,28 @@
+{
+  "width": 1100,
+  "height": 850,
+  "background": "#f7f5ef",
+  "palette": "warm",
+  "seed": 19,
+  "layers": [
+    {
+      "type": "polygon",
+      "sides": 11,
+      "arrangement": "triangular",
+      "tile_size": 72,
+      "polygon_rotation": 8,
+      "fill": "alternate",
+      "stroke": "#493b35",
+      "stroke_width": 1
+    },
+    {
+      "type": "hexagonal",
+      "tile_size": 190,
+      "rotation": 15,
+      "fill": "none",
+      "stroke": "#4c344d",
+      "stroke_width": 1.2,
+      "opacity": 0.65
+    }
+  ]
+}
