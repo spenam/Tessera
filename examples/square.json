@@ -1,0 +1,16 @@
+{
+  "width": 1000,
+  "height": 1000,
+  "background": "#f7f5ef",
+  "palette": "mono",
+  "seed": 3,
+  "layers": [
+    {
+      "type": "square",
+      "tile_size": 55,
+      "fill": "alternate",
+      "stroke": "#333333",
+      "stroke_width": 1
+    }
+  ]
+}

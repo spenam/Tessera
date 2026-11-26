@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+*.svg
+!examples/preview-*.svg
+*.egg-info/
+build/
+dist/
+playground/

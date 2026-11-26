@@ -1,0 +1,16 @@
+{
+  "width": 1000,
+  "height": 1000,
+  "background": "#f4f0e8",
+  "palette": "warm",
+  "seed": 2,
+  "layers": [
+    {
+      "type": "hexagonal",
+      "tile_size": 76,
+      "fill": "palette",
+      "stroke": "#493b35",
+      "stroke_width": 1.2
+    }
+  ]
+}

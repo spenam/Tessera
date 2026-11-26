@@ -1,0 +1,16 @@
+{
+  "width": 1000,
+  "height": 1000,
+  "background": "#f7f5ef",
+  "palette": "cool",
+  "seed": 7,
+  "layers": [{
+    "type": "uniform",
+    "notation": "6-4-3/m30/r(c2)",
+    "tile_size": 70,
+    "max_repeat": 12,
+    "fill": "palette",
+    "stroke": "#283746",
+    "stroke_width": 0.9
+  }]
+}
