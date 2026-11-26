@@ -38,6 +38,7 @@ def main() -> None:
     parser.add_argument("--height", type=int, default=1000, help="canvas height for --uniform/--notation")
     parser.add_argument("--tile-size", type=float, default=70, help="common polygon edge length")
     parser.add_argument("--max-repeat", type=int, default=6, help="symmetry expansion iterations")
+    parser.add_argument("--palette", default="cool", help="color palette for the artwork")
     args = parser.parse_args()
 
     if args.list_presets:
@@ -58,7 +59,7 @@ def main() -> None:
             "width": args.width,
             "height": args.height,
             "background": "#f7f5ef",
-            "palette": "cool",
+            "palette": args.palette,
             "seed": 7,
             "layers": [{
                 "type": "uniform",
