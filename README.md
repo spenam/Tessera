@@ -2,6 +2,16 @@
 
 Tessera is a lightweight Python explorer for periodic, aperiodic and **k-uniform edge-to-edge tilings** made from regular polygons. It writes plain SVG and has no third-party runtime dependencies.
 
+<p align="center">
+  <img src="examples/preview-3464.svg"
+       alt="Tessera mixed hexagon, square and triangle tiling"
+       width="720">
+</p>
+
+<p align="center">
+  <em>Mixed regular-polygon tiling generated with Tessera.</em>
+</p>
+
 ## Install
 
 ```bash
