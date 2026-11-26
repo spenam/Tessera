@@ -5,3 +5,5 @@ venv/
 .DS_Store
 *.svg
 !examples/*.svg
+playground/
+*egg-info

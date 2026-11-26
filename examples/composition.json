@@ -1,0 +1,29 @@
+{
+  "width": 1200,
+  "height": 900,
+  "background": "#101820",
+  "palette": "cool",
+  "seed": 22,
+  "layers": [
+    {
+      "type": "hexagonal",
+      "tile_size": 92,
+      "rotation": 15,
+      "fill": "none",
+      "stroke": "#6aa6a1",
+      "stroke_width": 1.1,
+      "opacity": 0.8
+    },
+    {
+      "type": "quasicrystal",
+      "tile_size": 30,
+      "extent": 7,
+      "window": 1.3,
+      "rotation": 0,
+      "fill": "alternate",
+      "stroke": "#d9f0ed",
+      "stroke_width": 0.65,
+      "opacity": 0.9
+    }
+  ]
+}
