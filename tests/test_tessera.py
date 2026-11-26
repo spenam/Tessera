@@ -1,7 +1,14 @@
 import math
 import unittest
 
-from tessera import preset, render, uniform_catalogue, uniform_counts, known_uniform_counts, generate_uniform
+from tessera import (
+    preset,
+    render,
+    uniform_catalogue,
+    uniform_counts,
+    known_uniform_counts,
+    generate_uniform,
+)
 from tessera.geometry import regular_polygon
 from tessera.tilings.periodic import polygon_field
 
@@ -52,7 +59,10 @@ class TesseraTests(unittest.TestCase):
         cells = generate_uniform("6-4-3/m30/r(c2)", 300, 300, 36, 4)
         lengths = []
         for cell in cells:
-            side_lengths = [math.dist(cell[i], cell[(i + 1) % len(cell)]) for i in range(len(cell))]
+            side_lengths = [
+                math.dist(cell[i], cell[(i + 1) % len(cell)])
+                for i in range(len(cell))
+            ]
             lengths.extend(side_lengths)
             self.assertLess(max(side_lengths) - min(side_lengths), 1e-6)
         common = lengths[0]
